@@ -25,4 +25,4 @@ for i in range (0, len(time)):
     timePrint = time[i]
     idPrint = idMach[i]
     #print keys and values (mapping)
-    print('%s\t%s' % (idPrint, timePrint))
+    print('%s\t%i' % (idPrint, timePrint))

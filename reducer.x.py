@@ -19,4 +19,4 @@ sortedList = sorted(diction.items())
 
 for i in range(0, len(sortedList)):
 	#printing to STDOUT the final result
-	print('%s\t%s' % (sortedList[i][0], sortedList[i][1]))
+	print('%s\t%i' % (sortedList[i][0], sortedList[i][1]))
