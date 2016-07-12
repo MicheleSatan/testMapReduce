@@ -14,14 +14,16 @@ for line in sys.stdin:
     rowSplit = rowString.split(";")
     #add elements to list with id
     idMach.append(rowSplit[2])
+    #create variable to host time
     timeModify = rowSplit[3]
     #delete the last character of the time
     timeNew = timeModify[:-1]
     #add elements to list with time and converting to int
     time.append(int(timeNew))
 
-#print to STDOUT
+#loop to print to STDOUT
 for i in range (0, len(time)):
+	#create variables to host time and id
     timePrint = time[i]
     idPrint = idMach[i]
     #print keys and values (mapping)
